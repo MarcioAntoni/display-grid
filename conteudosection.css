@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(196, 235, 255);
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    margin-top: -60px;
+}
+.logo{
+    max-width:200px;
+    border-radius: 30px;
+    text-align: center;
+}
+li{
+    text-transform: uppercase;
+    list-style: none;
+    margin: 15px;
+    color: blue;
+    list-style-type: decimal-leading-zero;
+    pointer-events: visibleFill;
+}
+
+/*section istilização*/
+
+h1{
+    margin: auto;
+    background-color: rgb(219, 246, 247);
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+}
+
+.conteudo-section{
+    max-width: 100%;
+    background-color: rgb(159, 186, 182);
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 10px;
+    
+}
+.imagem{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto
+}
+.iten {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: normal;
+    align-items: flex-start;
+    width: 50%;
+    height: 50%;
+  }
+
+
+p {
+ background-color: antiquewhite;
+ margin-right: 20px;
+}
+span{
+    background-color: antiquewhite;
+    margin-right: 20px;  
+}
